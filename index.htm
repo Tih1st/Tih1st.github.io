@@ -23,6 +23,10 @@ src: url(images/floor.jpg); repeat: 12 5"></a-entity>
       <-- Ceiling -->
     <a-entity static-body geometry="primitive: box; depth: 50; height: 0.1; width: 160" position="0 14 5" material="shader: flat; side: double; opacity: 1;
 src: url(images/ceiling.jpg); repeat: 20 12"></a-entity>
+        
+      <-- Walls -->
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 14; width: 50" position="-80 6.5 5" rotation="0 90 0" material="shader: standard;
+roughness: 1; color: red; repeat: 4 2"></a-entity>
       
     </a-scene>
   </body>
