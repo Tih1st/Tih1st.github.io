@@ -15,6 +15,12 @@
       <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D" shadow></a-cylinder>
       <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
       <a-sky color="#ECECEC"></a-sky>
+          
+     <a-assets>
+    <a-asset-item id="computer_desk-obj" src="assets/ct.obj"></a-asset-item>
+    <a-asset-item id="computer_desk" src="assets/ct.mtl"></a-asset-item>
+     </a-assets>
+    <a-obj-model src="assets/ct.obj" mtl="assets/ct.mtl" position="55 1.5 6"></a-obj-model>
       
       <-- Floor -->
     <a-entity static-body geometry="primitive: box; depth: 30; height: 0.1; width: 30" position="0 -0.5 5" material="shader: flat; side: double; opacity: 1;
