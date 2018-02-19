@@ -9,13 +9,20 @@
   <body>
     <a-scene>
       <a-sky color="#ECECEC"></a-sky>
+      
+      <-- Camera -->
+    <a-entity position="0 1 3">
+        <a-camera universal-controls="acceleration: 10">
+            <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
+                radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 -0.75"></a-entity>
+        </a-camera>
           
        <-- Assets -->
      <a-assets>
     <a-asset-item id="computer_desk-obj" src="assets/ct.obj"></a-asset-item>
     <a-asset-item id="computer_desk" src="assets/ct.mtl"></a-asset-item>
      </a-assets>
-    <a-obj-model src="assets/ct.obj" mtl="assets/ct.mtl" position="-12.794 -0.807 -7.361" scale="0.25 0.22000000000000003 0.22000000000000006" material=""></a-obj-model>
+    <a-obj-model src="assets/ct.obj" mtl="assets/ct.mtl" position="-1.431 -0.807 -7.361" scale="0.25 0.22000000000000003 0.22000000000000006" material=""></a-obj-model>
       
       <-- Floor -->
     <a-entity static-body geometry="primitive: box; depth: 30; height: 0.1; width: 30" position="0 -0.5 5" material="shader: flat; side: double; opacity: 1;
@@ -48,6 +55,8 @@ roughness:1;src:images/wall1.jpg"></a-entity>
     <a-entity static-body="" geometry="width:5;depth:0.25;height:6" position="-0.377 2.3 7.515" rotation="0 90 0" material="repeat:12 2;
 roughness:1;src:images/wall1.jpg"></a-entity>
     <a-entity static-body="" geometry="width:15;depth:0.25;height:6" position="-7.847 2.3 1.306" material="repeat:12 2;
+roughness:1;src:images/wall1.jpg"></a-entity>
+    <a-entity static-body="" geometry="width:11.25;depth:0.25;height:6" position="-0.377 2.3 -4.248" rotation="0 90 0" material="repeat:12 2;
 roughness:1;src:images/wall1.jpg"></a-entity>
       
     </a-scene>
