@@ -24,8 +24,10 @@
      </a-assets>
     <a-obj-model src="assets/ct.obj" mtl="assets/ct.mtl" position="1.470 -0.807 -7.361" scale="0.25 0.22000000000000003 0.22000000000000006" material=""></a-obj-model>
     <a-obj-model src="assets/doow_wood.obj" position="15.123 -0.807 11.306" scale="0.8 0.75 1" material="src:images/wood_door.jpg" rotation="0 90 0"></a-obj-model>
-    <a-obj-model src="assets/door2.obj" position="2.925 -0.685 -0.052" scale="0.07 0.057 0.07" material="src:images/bedroom_door.jpg" rotation="0 90 0" class="intersectable"></a-obj-model>
-    <a-obj-model src="assets/Dog.obj" mtl="assets/Dog.mtl" position="13.470 -0.807 -7.361" scale="1 1 1" material=""></a-obj-model>
+    <a-obj-model src="assets/door2.obj" position="2.925 -0.685 -0.052" scale="0.07 0.057 0.07" material="src:images/bedroom_door.jpg" rotation="0 90 0" class="intersectable"  animation-mixer>
+       <a-animation attribute="rotation" dur="17000"  begin="click" from="0 0 0" to="0 90 0"  ></a-animation>
+    </a-obj-model>
+    
     
     <a-obj-model src="assets/deskchair.obj" mtl="assets/deskchair.mtl" position="1.141 -0.46 -6.554" scale="0.06 0.06 0.06" material="" rotation="0 45 0"></a-obj-model>
     
