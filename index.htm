@@ -10,12 +10,11 @@
     <a-scene>
       <a-sky color="#ECECEC"></a-sky>
       
-       <a-entity position="4.192 1 5.697">
-        <a-camera universal-controls>
-            <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
-                              radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 -0.75"></a-entity>
-        </a-camera>
-    </a-entity>
+        <a-entity position="4.192 1 5.697">
+           <a-camera>
+             <a-cursor color= "#EF2D5E" />
+          </a-camera>
+        </a-entity>
         
        <-- Assets -->
      <a-assets>
@@ -27,6 +26,11 @@
     <a-obj-model src="assets/door2.obj" position="2.925 -0.685 -0.052" scale="0.07 0.057 0.07" material="src:images/bedroom_door.jpg" rotation="0 90 0" class="intersectable"  animation-mixer>
        <a-animation attribute="rotation" dur="17000"  begin="click" from="0 0 0" to="0 90 0"  ></a-animation>
     </a-obj-model>
+         
+    <a-asset-item id="BedRoom" src="assets/door2.obj" material=src:images/bedroom_door.jpg"></a-asset-item>
+    <a-entity geometry="primitive: box" color="blue" rotation="0 90 0" position="15 1.8 -4" scale="1.5 1.5 1.5" obj-model="position:15 1.8 -6.6;obj:#BedRoom"  class="intersectable" >
+            <a-animation begin="click" attribute="position" from="15 2 -7" to= "10 2 -7" dur="3000" direction="alternate" easing="ease-in-out"></a-animation> </a-entity>
+         
     <a-obj-model src="assets/couch.obj" mtl="assets/couch.mtl" position="5.391 -0.807 7.599" scale="0.0025 0.0025 0.0025" material="" rotation="0 270 0"></a-obj-model>
 
     <a-obj-model src="assets/deskchair.obj" mtl="assets/deskchair.mtl" position="1.141 -0.46 -6.554" scale="0.06 0.06 0.06" material="" rotation="0 45 0"></a-obj-model>
