@@ -1,5 +1,7 @@
-# Jijun Sui Project 1 Github repo
+# Jijun Sui Project 1
+
 ## Link to Live Demo [Here](https://tih1st.github.io)
+## Link to Video 
 
 # MODELS USED:
 ## Number of Models used: 17
