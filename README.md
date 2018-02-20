@@ -1,7 +1,23 @@
 # Jijun Sui Project 1
 
 ## Link to Live Demo [Here](https://tih1st.github.io)
-## Link to Video 
+## Link to Video [Here](https://youtu.be/K5rMxqvrZKg)
+
+### Rooms
+
+I have created two main rooms in my house, a living room with sub-sections of a kitchen and entrance area (as seen in Images 1,2,3 seen below), as well as a door that leads to the bed room area (as seen in Image 4 below) I have various models scattered about in the appropriate locations, downloaded from different sources (see Models section). The walls, floor, and ceiling are all entities with a box type, and the house has default lighting. 
+
+![alt text](https://github.com/Tih1st/Tih1st.github.io/blob/master/report%20images/entrance.JPG "Entrance")
+
+![alt text](https://github.com/Tih1st/Tih1st.github.io/blob/master/report%20images/living_room.JPG "Living Room")
+
+![alt text](https://github.com/Tih1st/Tih1st.github.io/blob/master/report%20images/kitchen.JPG "Kitchen and Door")
+
+The door seen above can be opened by the user, leading into the bedroom. This was done by implementing two animations simultaneously, and both acting on the same model. One rotates the door, and the other animation shifts the doors position in order to simulate opening.
+
+![alt text](https://github.com/Tih1st/Tih1st.github.io/blob/master/report%20images/bedroom.JPG "Bed Room")
+
+In the bedroom above, we have several more models, and most notably, a dynamic model of a ceiling fan. This model rotates 360 degrees forever, simulating a spinning fan. 
 
 # MODELS USED:
 ## Number of Models used: 17
