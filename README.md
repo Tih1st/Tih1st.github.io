@@ -1,4 +1,5 @@
 # Jijun Sui Project 1 Github repo
+## Link to Live Demo [Here](https://tih1st.github.io)
 
 # MODELS USED:
 ## Number of Models used: 7 
@@ -15,6 +16,8 @@
 [Bed] (https://www.cgtrader.com/free-3d-models/furniture/bed/double-bed--15)
 
 [Ceiling Fan] (https://www.cgtrader.com/free-3d-models/architectural/other/celling-fan)
+
+[Refrigerator] (https://www.cgtrader.com/free-3d-models/household/kitchenware/fridge-neg-1-refrigerator-american)
 
 
 # IMAGES USED:
