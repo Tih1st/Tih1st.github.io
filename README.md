@@ -1,6 +1,7 @@
 # Jijun Sui Project 1 Github repo
 
-### MODELS USED:
+# MODELS USED:
+## Number of Models used: 7 
 [Bedroom Door] (https://www.cgtrader.com/free-3d-models/interior/bedroom/basic-door)
 [Wood Door] (https://sketchfab.com/models/8726b6c219a54ed585e096f267c2a35e)
 [Office Chair] (https://www.cgtrader.com/free-3d-models/furniture/chair/office-chair-111a8a18-d73b-4e3b-bd4a-bdc4c576904c)
@@ -9,8 +10,8 @@
 [Bed] (https://www.cgtrader.com/free-3d-models/furniture/bed/double-bed--15)
 [Ceiling Fan] (https://www.cgtrader.com/free-3d-models/architectural/other/celling-fan)
 
-### IMAGES USED:
-## 6 Total Images used
+# IMAGES USED:
+## Number of Images used: 6
 [Bedroom Door] (https://sketchfab.com/models/8726b6c219a54ed585e096f267c2a35e)
 [Wood Door] (https://sketchfab.com/models/8726b6c219a54ed585e096f267c2a35e)
 [Wall] (http://kmnnsw.com/textured-interior-wall-paint/cool-textured-interior-wall-paint-home-decor-interior-exterior-best-to-interior-design-trends/)
