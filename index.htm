@@ -23,16 +23,12 @@
      </a-assets>
     <a-obj-model src="assets/ct.obj" mtl="assets/ct.mtl" position="1.470 -0.807 -7.361" scale="0.25 0.22000000000000003 0.22000000000000006" material=""></a-obj-model>
     <a-obj-model src="assets/doow_wood.obj" position="15.123 -0.807 11.306" scale="0.8 0.75 1" material="src:images/wood_door.jpg" rotation="0 90 0"></a-obj-model>
-    <a-obj-model src="assets/door2.obj" position="2.925 -0.685 -0.052" scale="0.07 0.057 0.07" material="src:images/bedroom_door.jpg" rotation="0 90 0" class="intersectable"  animation-mixer>
-       <a-animation attribute="rotation" dur="17000"  begin="click" from="0 0 0" to="0 90 0"  ></a-animation>
-    </a-obj-model>
-         
-     
+
     <a-asset-item id="BedRoom" src="assets/door2.obj" material=src:images/bedroom_door.jpg"></a-asset-item>
-    <a-entity geometry="primitive: box" color="blue" rotation="0 0 0" position="2.925 -0.685 -0.052" scale="0.07 0.057 0.07" obj-model="position:2.925 -0.685 -0.052;obj:#BedRoom"  class="intersectable" >
-            <a-animation begin="click" attribute="rotation" from="0 0 0" to= "0 -90 0" dur="3000" easing="linear"></a-animation> 
-            <a-animation begin="click" attribute="position" from="2.925 -0.685 -0.052" to= "15 30 -0.052" dur="3000" easing="linear"></a-animation> 
-         </a-entity>                                                                                                                                          
+    <a-entity geometry="primitive: box" color="blue" rotation="0 0 0" position="3.918 -0.685 1.371" scale="0.07 0.057 0.07" obj-model="position:3.918 -0.685 1.371;obj:#BedRoom"  class="intersectable" >
+            <a-animation begin="click" attribute="rotation" from="0 0 0" to= "0 90 0" dur="3000" easing="linear"></a-animation> 
+            <a-animation begin="click" attribute="position" from="3.918 -0.685 1.371" to= "2.925 -0.685 -0.052" dur="3000" easing="linear"></a-animation> 
+      </a-entity>                                                                                                                                          
                                                                                                                                               
     <a-obj-model src="assets/couch.obj" mtl="assets/couch.mtl" position="5.391 -0.807 7.599" scale="0.0025 0.0025 0.0025" material="" rotation="0 270 0"></a-obj-model>
 
