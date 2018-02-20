@@ -13,7 +13,7 @@ I have created two main rooms in my house, a living room with sub-sections of a 
 
 ![alt text](https://github.com/Tih1st/Tih1st.github.io/blob/master/report%20images/kitchen.JPG "Kitchen and Door")
 
-The door seen above can be opened by the user, leading into the bedroom. This was done by implementing two animations simultaneously, and both acting on the same model. One rotates the door, and the other animation shifts the doors position in order to simulate opening.
+The door seen above prompts a message to the user when the cursor is hovering over it, and then can be opened by the user with a click, leading into the bedroom. This was done by implementing two animations simultaneously, and both acting on the same model. One rotates the door, and the other animation shifts the doors position in order to simulate opening.
 
 ![alt text](https://github.com/Tih1st/Tih1st.github.io/blob/master/report%20images/bedroom.JPG "Bed Room")
 
