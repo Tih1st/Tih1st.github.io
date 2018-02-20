@@ -46,8 +46,7 @@
     <a-entity geometry="primitive: box; depth: 200; height: 250; witdh: 1" color="blue" rotation="0 0 0" position="3.918 -0.685 1.371" scale="0.07 0.057 0.07" obj-model="position:3.918 1 1.371;obj:#BedRoom"  class="intersectable"
             event-set__enter="_event: mouseenter; _target: #doorText; visible: true"
             event-set__leave="_event: mouseleave; _target: #doorText; visible: false">
-            <a-text id="doorText" value="Click the door to open" align="center" color="#FFF" visible="false" position="3.918 15 1.371"
-                geometry="primitive: plane; width: 1.75" material="color: #333"></a-text>                                                                             
+            <a-text id="doorText" value="Click the door to open" align="center" color="#FFF" position="0.034 47.373 1.371" geometry="width:2.25;primitive:plane" material="color:#333" scale="10 10 1"></a-text>                                                                   
             <a-animation begin="click" attribute="rotation" from="0 0 0" to= "0 90 0" dur="3000" easing="linear"></a-animation> 
             <a-animation begin="click" attribute="position" from="3.918 -0.685 1.371" to= "2.925 -0.685 -0.052" dur="3000" easing="linear"></a-animation> 
       </a-entity>                                                                                                                                          
