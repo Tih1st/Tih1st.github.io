@@ -2,7 +2,7 @@
 ## Link to Live Demo [Here](https://tih1st.github.io)
 
 # MODELS USED:
-## Number of Models used: 7 
+## Number of Models used: 17
 [Bedroom Door] (https://www.cgtrader.com/free-3d-models/interior/bedroom/basic-door)
 
 [Wood Door] (https://sketchfab.com/models/8726b6c219a54ed585e096f267c2a35e)
@@ -19,6 +19,23 @@
 
 [Refrigerator] (https://www.cgtrader.com/free-3d-models/household/kitchenware/fridge-neg-1-refrigerator-american)
 
+[Kitchen Counter] (https://www.cgtrader.com/free-3d-models/interior/kitchen/kitchen-counter--2)
+
+[Montior] (https://poly.google.com/view/fN_jLmrWXxq)
+
+[TV] (https://poly.google.com/view/fsdm7OMqYLR)
+
+[TV Stand] (https://www.cgtrader.com/free-3d-models/furniture/table/tv-table--6)
+
+[Night Stand] (https://www.cgtrader.com/free-3d-models/furniture/cabinet/night-stand--4)
+
+[Cactus Pot] (https://poly.google.com/view/57cAsl1xOkz)
+
+[Lamp] (https://poly.google.com/view/aurlA5vCous)
+
+[Shoe Rack] (https://www.cgtrader.com/free-3d-models/furniture/other/ikea-tjusig-shoe-rack)
+
+[Table] (https://poly.google.com/view/fdtYBOniyxa)
 
 # IMAGES USED:
 ## Number of Images used: 6
